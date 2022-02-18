@@ -1,0 +1,19 @@
+/*---GENERERICS---*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    
+}
+/*---UTILITIES---*/
+
+/*---CONTENT---*/
+.container{
+    margin: 0 auto;
+    width: 95%;
+    height: 100px;
+}

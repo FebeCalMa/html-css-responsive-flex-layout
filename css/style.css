@@ -9,6 +9,39 @@ body{
     font-family: sans-serif;
     
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
 /*---UTILITIES---*/
 
 /*---CONTENT---*/
+header{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
+
+header .flex-header{
+    display: flex;
+}
+
+div[class="logo"]{
+    color: white;
+}
+
+div[class="nav"] ul li{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+div[class="nav"] button{
+    height: 50px;
+    width: auto;
+    padding: 3px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}

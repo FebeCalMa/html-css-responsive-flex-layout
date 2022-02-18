@@ -12,8 +12,3 @@ body{
 /*---UTILITIES---*/
 
 /*---CONTENT---*/
-.container{
-    margin: 0 auto;
-    width: 95%;
-    height: 100px;
-}

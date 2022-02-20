@@ -1,80 +1,80 @@
 /*---GENERERICS---*/
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: sans-serif;
-    
+body {
+  font-family: sans-serif;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
+.container {
+  display: flex;
+  flex-direction: column;
 }
 /*---UTILITIES---*/
 
 /*---CONTENT---*/
-header{
-    width: 100%;
-    height: 100px;
-    background-color: blue;
+header {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
 }
 
-header .flex-header{
-    display: flex;
-    flex-direction: row;
+header .flex-header {
+  display: flex;
+  flex-direction: row;
 }
 
-div[class="logo"]{
-    color: white;
+div[class="logo"] {
+  color: white;
 }
 
-.flex-header div[class="nav"]{
-    display: flex;
+.flex-header div[class="nav"] {
+  display: flex;
 
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
-div[class="nav"] ul li{
-    text-decoration: none;
-    color: white;
-    display: inline-block;
+div[class="nav"] ul li {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
 }
 
-div[class="nav"] button{
-    height: 25px;
-    width: auto;
-    padding: 3px;
-    border-radius: 5px;
-    color: black;
-    background-color: white;
+div[class="nav"] button {
+  height: 25px;
+  width: auto;
+  padding: 3px;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
 }
 
-main{
-    flex-grow: 1;
+main {
+  flex-grow: 1;
 }
 
-main .flex-main{
-    display: flex;
-    flex-direction: column;
+main .flex-main {
+  display: flex;
+  flex-direction: column;
 }
 
-div[class="section-white"]{
-    width: 100%;
-    height: 200px;
-    background-color: white;
-    
+div[class="section-white"] {
+  width: 100%;
+  min-height: 200px;
+  background-color: white;
 }
 
-div[class="section-purple"]{
-    width: 100%;
-    height: 200px;
-    background-color: blueviolet;
+div[class="section-purple"] {
+  width: 100%;
+  height: 200px;
+  background-color: blueviolet;
 }
 
-footer{
-    
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
 }
